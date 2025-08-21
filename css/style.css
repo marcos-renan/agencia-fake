@@ -64,7 +64,7 @@ body {
     transition: 0.5s;
 }
 
-.header{
+.header {
     display: flex;
     flex-flow: row wrap;
     background: white;
@@ -72,13 +72,13 @@ body {
     align-items: center;
 }
 
-.headline{
+.headline {
     flex: 40%;
     margin-left: 10%;
     /* border: 1px solid black; */
 }
 
-.headline h2{
+.headline h2 {
     font-weight: 900;
     font-size: 20px;
     color: #180F4A;
@@ -86,12 +86,12 @@ body {
     margin: 0;
 }
 
-.headline p{
+.headline p {
     color: gray;
     text-align: left;
 }
 
-.contact-btn{
+.contact-btn {
     display: inline-block;
     background: #FF2978;
     padding: 20px;
@@ -101,13 +101,70 @@ body {
     border-radius: 5px;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     background: #180F4A;
     transition: 0.5s;
 }
 
-.img-headline{
+.img-headline {
     flex: 40%;
     margin-right: 10%;
     text-align: center;
 }
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.card:hover{
+    background: #FF2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
