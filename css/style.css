@@ -13,8 +13,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: 100px;
+    background: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -70,6 +73,7 @@ body {
     background: white;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .headline {
@@ -150,21 +154,45 @@ section h2 {
     display: none;
 }
 
-.card:hover{
+.card:hover {
     background: #FF2978;
     color: white;
     padding: 40px;
 }
 
-.card:hover img{
+.card:hover img {
     display: none;
 }
 
-.card:hover .card-text{
+.card:hover .card-text {
     display: none;
 }
 
-.card:hover .texto-oculto{
+.card:hover .texto-oculto {
     display: block;
 }
 
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
