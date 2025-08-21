@@ -21,12 +21,14 @@ body {
     flex: 20%;
     text-align: center;
     margin-left: 10%;
+    text-align: left;
 }
 
-.logo h1{
+.logo h1 {
     font-family: 'Lobster', cursive;
     color: #180F4A;
     font-size: 34px;
+    cursor: pointer;
 }
 
 .menu {
@@ -35,19 +37,19 @@ body {
     padding: 20px;
 }
 
-.menu a{
+.menu a {
     color: #180F4A;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #FF2978;
     border-top: 4px solid #180F4A;
 }
 
-#botao{
+#botao {
     background: #180F4A;
     padding: 10px 25px;
     border-radius: 5px;
@@ -57,6 +59,55 @@ body {
     border-top: none;
 }
 
-#botao:hover{
+#botao:hover {
     background-color: #FF2978;
+    transition: 0.5s;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover{
+    background: #180F4A;
+    transition: 0.5s;
+}
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
 }
