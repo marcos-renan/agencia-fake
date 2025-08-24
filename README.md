@@ -13,9 +13,9 @@ Site de uma agência fictícia feito com HTML e CSS.
 
 ## Responsividade
 <div style="width:100%">
-  <img width="33%" alt="image" src="https://github.com/user-attachments/assets/2a7da110-45e9-41b4-bbe8-1913958b71f4" />
-  <img width="33%" height="763" alt="image" src="https://github.com/user-attachments/assets/1b4b8d2d-683b-4bda-a153-8b33c7402cf4" />
-  <img width="33%" height="763" alt="image" src="https://github.com/user-attachments/assets/5e992af9-f768-4b2f-a3d2-3356c7de6021" />
+  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/2a7da110-45e9-41b4-bbe8-1913958b71f4" />
+  <img width="30%" height="763" alt="image" src="https://github.com/user-attachments/assets/1b4b8d2d-683b-4bda-a153-8b33c7402cf4" />
+  <img width="30%" height="763" alt="image" src="https://github.com/user-attachments/assets/5e992af9-f768-4b2f-a3d2-3356c7de6021" />
 </div>
 
 
